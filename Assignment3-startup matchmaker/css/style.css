@@ -1,0 +1,302 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/** { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+ 
+* * * * * * { background-color: rgba(255,255,0,.2); }*/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the wrapper */
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+/*<!-- Navigtaion Header -->*/
+
+header{
+    background-color: black;
+    float: left;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px yellow solid;
+}
+
+header h1 {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFF00;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    float: left;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+
+    nav li {
+    display: inline;
+    font-weight: 600; 
+    font-size:18px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+    nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*end of navigation header*/
+
+
+/*start of grey strip*/
+
+.strip {
+    background-color: #C0C0C0;
+    height: 175px;
+    text-align: center;
+    width: 100%; 
+    padding: 20px 0px 20px 0px;
+}
+
+  h2 {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.strip h2 span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/*end of grey strip*/
+
+/*start of main section*/
+
+.main-section {
+    background: url("../images/coworking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #C0C0C0;
+    padding: 20px;
+} 
+
+.main-section div {
+  background-color: white;
+  width: 250px;
+  float: right;
+  box-shadow: 2px 2px 5px #888888;
+  padding: 20px; 
+}
+
+
+h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: black;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+  line-height: 2;
+}
+
+.main-section button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight:700;
+    font-family: Oswald; 
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    padding: 5px 22px;
+    background-color: yellow;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/*end of main section*/
+
+/*start of call to action*/
+
+
+
+  .one {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  background-color: white;
+  padding: 30px; 
+  border-right: 1px solid #C0C0C0;
+}
+
+  .two {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  background-color: white;
+  padding: 30px; 
+  border-right: 1px solid #C0C0C0;
+}
+
+  .three {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  background-color: white;
+  padding: 30px; 
+  border-right: 1px solid #C0C0C0;
+}
+
+.one button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight:700; 
+    font-family: Oswald;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 22px;
+    background-color: #C0C0C0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.two button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight:700; 
+    font-family: Oswald;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 22px;
+    background-color: #C0C0C0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.three button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight:700; 
+    font-family: Oswald;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 22px;
+    background-color: #C0C0C0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+h4 {
+  font-family: Merriweather;
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  }
+
+/*end of cta section*/
+
+  footer{
+  float: left;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  padding: 20px; 
+}
+
+        footer span {
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
