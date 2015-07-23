@@ -54,7 +54,7 @@ $(document).ready(
 
       event.preventDefault();
 
-      $("p").slideUp();
+      $(".hide").slideUp();
        $("#show-this-on-click").hide();
   	     $("#readmore").show();
   	       $("#readless").hide();
@@ -62,10 +62,13 @@ $(document).ready(
 
         /* Learn More */
 
-        $("#learnmore").click(function() {
+        $(".learnmore").click(function(event) {
+
+            event.preventDefault();
   
+          $("p span").slideDown();
           $("#learnmoretext").show();
-            $("#learnmore").hide();
+            $(".learnmore").hide();
   });
 
 
