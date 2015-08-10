@@ -1,0 +1,13 @@
+when a link is clicked on in the nav bar a line will appear underneath, the width of the text
+
+when a project div is rolled over it will receive a darkened transparency effect
+or 
+when a project div is rolled over the box changes to solid colour and displays logo and project info
+
+
+when work is clicked on the nav bar a sub menu will slide down
+the option clicked on the sub menu will change to another colour
+
+The second layer of project options will display with the same effect as the first (description above)
+
+when clicked through to the inner pages, only the middle content displaying the work will scroll down. the two side panels remain static.

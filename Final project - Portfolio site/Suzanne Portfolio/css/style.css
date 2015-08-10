@@ -13,6 +13,7 @@
 }
 .wrapper {
 	width: 100%;
+/*	width of whole canvas is 980px 20px padding either side*/
 	margin: 0 auto;
 }
 
@@ -51,8 +52,30 @@
 #home-thumbs {
 	border: 1px solid black;
 	float: left;
-	width: 25%;
-	padding: 5px; 
+	width: 200px;
+	height: 170px;
+	padding left: 10px; 
+	padding right: 10px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.project-title {
+	font-family: proxima nova;
+    font-size: 12px;
+    line-height: .9em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color: #8f8a8a;
+}
+
+nav li a {
+font-size: 12px;
+text-decoration: none;
 }
 
 /*An example of refactoring this would be to group the elements that contain the same styling. */
