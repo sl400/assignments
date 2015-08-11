@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700,300,300italic,800' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </head>
@@ -17,91 +18,108 @@
 <body>
 
   <div id="wrapper">
+    <div class="canvas">
   
 <!--   Header  -->
   <header id="header">
-    <div id="logo">
-      <h1>
-        <a href="home.html">
-          <img src="logofilename.jpg" alt="SMB Logo">
-        </a>
-      </h1>
-    </div>
+    
 </header>
 
 <!-- Side bar -->
 <aside>
-    <div class="side-panel">
-    <div class="page-divider"></div> <!-- this is a grey line (design element) on top and below nav -->
+  <div id="side-panel">
+    <h1>
+      <div id="logo">
+        <a href="home.html">
+          <img src="images/placeholder.png" alt="SMB Logo">
+          <!-- should it be url(../images/placeholder.jpg) -->
+        </a>
+      </div>
+    </h1>
+    <div class="divider"></div> <!-- this is a grey line (design element) on top and below nav -->
       <nav class="main-nav">
         <ul>
           <li class="page-collection">
-            <a href="#">WORK></a>
+            <a href="#">WORK</a>
           </li>
           <li class="page-collection">
-            <a href="#">ABOUT></a>
+            <a href="#">ABOUT</a>
           </li>
           <li class="page-collection">
-            <a href="#">SERVICES></a>
+            <a href="#">SERVICES</a>
           </li>
           <li class="page-collection">
-            <a href="#">CONTACT></a>
+            <a href="#">CONTACT</a>
           </li>
         </ul>
       </nav>
-      <div class="page-divider"></div> <!-- this is a grey line (design element) on top and below nav -->
+    <div class="divider"></div> <!-- this is a grey line (design element) on top and below nav -->
+
+    <div id="social-links">
+      <ul>
+        <li><a href="#"><img src="images/linkedin.png" alt="linkedin logo"></a></li>
+        <li><a href="#"><img src="images/behance.png" alt="behance logo"></a></li>
+      </ul>
+
+      <!-- <a href="#" target="_blank">
+        <img src="images/linkedin.jpg" alt="linkedin logo">
+          </a>
+      <a href="#" target="_blank">
+        <img src="images/behance.jpg" alt="behance logo">
+          </a> -->
+    </div>
   </div>
 </aside>
-</header>
 
 
 <!-- main section -->
 <div class="content">
-  <div id="home-thumbs">
-    <div>box 1</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+  <div id="project-thumbs">
+    <div class="wrapper">
+      <a class="project" href="/floorfour-branding/">
+          <div>
+            
+
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 2</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 3</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 4</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 5</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 6</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 7</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 8</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div>box 9</div>
-      <img src="pathofimage.jpg" alt id="nameofimage">
+    <div class="grid 1"></div>
+      <img src="images/portfolio.png" alt id="nameofimage">
         <h2 class="project-title">Name of project here</h2>
 </section>
 
 <!-- footer -->
 <footer>
-  <div id="social-icons">
-          <a href="#" target="_blank">
-          <img src="images/linkedin.png" alt="linkedin logo">
-          </a>
-          <a href="#" target="_blank">
-          <img src="images/behance.png" alt="behance logo">
-        </a>
-        </div>
-        <span>&copy; Copyright 2015. SMB.</span>
-      </footer>
+  <div>
+    <span>&copy; Copyright 2015. SMB.</span>
+      <div class="page-divider"></div> <!-- this is a grey line (design element) at bottom of page -->
+  </div>
 </footer>
 
-</div>
+    </div> <!-- this is for class canvas -->
+  </div> <!-- this is for id wrapper -->
+
 <script src="js/index.js"></script>
 </body>
 
