@@ -1,10 +1,10 @@
-* { background-color: rgba(255,0,0,.2); }
+/** { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
 * * * * * { background-color: rgba(0,255,255,.2); }
  
-* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }*/
 
 
 *{
@@ -29,57 +29,50 @@ body {
 	/*	width of whole canvas is 980px 20px padding either side*/
 }
 
-#header {
-	
-}
+
 
 #side-panel {
-	
 	float: left;
 	width: 150px;
-	padding-right: 30px; /*should this be margin right*/
+	padding-right: 30px; /*should this be margin right?*/
 	margin-top: 0px;
-	border: 1px solid black;
+	color: #E5E4E2;
 }
 
-#side-panel h1 {
-	margin-top: 60px;
-	margin-left: 10px;
+.logo {
+	width: 300px;
 }
 
-#side-panel .logo {
-  
+.logo img {
+	max-width: 100%;
 }
 
-/*not sure what to target to position the logo? h1 or div id logo?*/
-
-.page-divider {
-	border: 0.5px solid;
-	color: #8f8a8a;
-	margin-left: 10px;
-	max-width: 100px;
-}
-
-.main-nav {
-	margin-left: 10px;
-	float: left;
-	overflow: hidden;
+nav {
+	width: 150px;
+  	float: left;
+  	display: inline;
+  	margin: 0;
+  	padding: 0;
+  	margin-right: 10px;
 }
 
 nav li {
-	float: left;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #side-panel nav a {
+	width:60px;
 	font-size: 12px;
 	text-decoration: none;
 	display: block;
 	padding: 20px 15px;
-	color: #8f8a8a;
+	background-color: #8f8a8a;
 }
 
 #side-panel nav li a:hover {
-	color: yellow;
+	color: black;
 }
 
 #side-panel nav li.active a {
@@ -97,34 +90,26 @@ nav li {
 
 /*main section*/
 
-.content {
-	width: 640px;
+.main {
+  width: 640px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.thumb {
+	width: 33%;
+	padding: 10px 20px;
 	float: left;
-	margin-top: 60px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-	overflow: visible;
 }
 
-#project-thumbs {
-
-}
-/*not sure what to put in this*/
-
-div .grid 1 {
-	border: 1px solid black;
-	color: #8f8a8a;
-	float: left;
-	width: 200px;
-	height: 170px;
-	padding left: 10px; 
-	padding right: 10px; 
-	padding-top: 20px;
-	padding-bottom: 20px;
+.thumb img {
+	max-width: 100%;
+	margin: 10px 0;
 }
 
-h2 .project-title {
+.project-title {
 	font-family: 600;
     font-size: 12px;
     line-height: .9em;
@@ -141,18 +126,11 @@ footer {
 	border: 1px solid black;
 	padding-top: 40px;
 	margin-top: 36px;
-	display: block;
+	width: 640px;
 }
 
 footer div span {
-	float: center;
+	text-align: center;
 	padding: 20px;
 	width: 100%;
-	border: 1px solid black;
-}
-
-div .page-divider {
-	border: 0.5px solid;
-	color: #8f8a8a;
-	max-width: 100px;
 }

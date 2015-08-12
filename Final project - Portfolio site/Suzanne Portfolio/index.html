@@ -17,49 +17,68 @@
 
 <body>
 
+<!-- this is main container 1020px wide -->
   <div id="wrapper">
+
+<!--   this is canvas area 980px wide , 20px padding left and right -->
     <div class="canvas">
   
-<!--   Header  -->
-  <header id="header">
-    
-</header>
-
 <!-- Side bar -->
 <aside>
   <div id="side-panel">
-    <h1>
-      <div id="logo">
-        <a href="home.html">
-          <img src="images/placeholder.png" alt="SMB Logo">
-          <!-- should it be url(../images/placeholder.jpg) -->
-        </a>
-      </div>
-    </h1>
-    <div class="divider"></div> <!-- this is a grey line (design element) on top and below nav -->
-      <nav class="main-nav">
-        <ul>
-          <li class="page-collection">
-            <a href="#">WORK</a>
+    <a href="home.html" class="logo">
+      <img src="images/placeholder.png" alt="SMB Logo">
+    </a>
+  </div>
+  
+  <nav>
+    <ul>
+      <li>
+        <a href="#">WORK</a>
+        <ul class="sub-nav">
+          <li>
+            <a href="#">Publishing</a>
           </li>
-          <li class="page-collection">
-            <a href="#">ABOUT</a>
+          <li>
+            <a href="#">Tourism</a>
           </li>
-          <li class="page-collection">
-            <a href="#">SERVICES</a>
+          <li>
+            <a href="#">Fashion</a>
           </li>
-          <li class="page-collection">
-            <a href="#">CONTACT</a>
+          <li>
+            <a href="#">Retail</a>
+          </li>
+          <li>
+            <a href="#">Corporate</a>
+          </li>
+          <li>
+            <a href="#">Logos</a>
+          </li>
+          <li>
+            <a href="#">Personal</a>
           </li>
         </ul>
-      </nav>
-    <div class="divider"></div> <!-- this is a grey line (design element) on top and below nav -->
+      <li>
+        <a href="#">ABOUT</a>
+      </li>
+      <li>
+        <a href="#">SERVICES</a>
+      </li>
+      <li>
+        <a href="#">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div id="social-links">
+    <ul>
+      <li><a href="#"><img src="images/linkedin.png" alt="linkedin logo"></a></li>
+      <li><a href="#"><img src="images/behance.png" alt="behance logo"></a></li>
+    </ul>
+  </div>
+</aside>
 
-    <div id="social-links">
-      <ul>
-        <li><a href="#"><img src="images/linkedin.png" alt="linkedin logo"></a></li>
-        <li><a href="#"><img src="images/behance.png" alt="behance logo"></a></li>
-      </ul>
+<!-- is it better to code my social links like this below, so not in a list? -->
 
       <!-- <a href="#" target="_blank">
         <img src="images/linkedin.jpg" alt="linkedin logo">
@@ -67,53 +86,72 @@
       <a href="#" target="_blank">
         <img src="images/behance.jpg" alt="behance logo">
           </a> -->
-    </div>
-  </div>
-</aside>
+    
 
 
 <!-- main section -->
-<div class="content">
-  <div id="project-thumbs">
-    <div class="wrapper">
-      <a class="project" href="/floorfour-branding/">
-          <div>
-            
+<section class="main">
 
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  <a class="thumb" href="#"> 
+    <span>box1</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box2</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box3</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box4</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box5</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box6</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box7</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box8</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
-    <div class="grid 1"></div>
-      <img src="images/portfolio.png" alt id="nameofimage">
+  </a>
+
+  <a class="thumb" href="#"> 
+    <span>box9</span>
+      <img src="images/portfolio.png" alt="nameofimage">
         <h2 class="project-title">Name of project here</h2>
+  </a>
+
 </section>
 
 <!-- footer -->
 <footer>
   <div>
     <span>&copy; Copyright 2015. SMB.</span>
-      <div class="page-divider"></div> <!-- this is a grey line (design element) at bottom of page -->
   </div>
 </footer>
 
