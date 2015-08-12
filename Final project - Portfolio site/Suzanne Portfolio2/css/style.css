@@ -1,0 +1,131 @@
+* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+ 
+* * * * * * { background-color: rgba(255,255,0,.2); }
+
+
+*{
+	box-sizing: border-box;
+/*	this will always be needed so you don't have to calculate exact widths of boxes for them to fit the container. this does it auto*/
+}
+
+body {
+	/*font: 100%/1.5 sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 980px; /*my whole page width is 1020px*/
+	margin: 0 auto;
+	padding: 20px 20px;
+	
+}
+
+.clearfix {
+	clear:both;
+}
+
+header {
+	width: 100%;
+	margin-bottom: 6px;
+	height: 83px;
+}
+
+
+
+.logo {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+nav {
+	width: 100%;
+  	margin: 0;
+  	padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+  	margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav a {
+	
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	padding: 20px 15px;
+	color: #8f8a8a;
+}
+
+nav li a:hover {
+	color: black;
+}
+
+nav li.active a {
+	background: #666;
+}
+
+.sub-nav {
+	display: none;
+}
+
+/*main section*/
+
+.main {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.thumb {
+	width: 33.33%;
+	padding: 10px 10px;
+	float: left;
+}
+
+.thumb img {
+	max-width: 100%;
+	margin: 10px 0;
+}
+
+.project-title {
+	font-family: 600;
+    font-size: 12px;
+    line-height: .9em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    text-align: left;
+    /*font-weight: 400;*/
+    font-style: normal;
+    color: #8f8a8a;
+}
+
+footer {
+	float: left;
+	margin-top: 36px;
+	width: 100%;
+	height: 79px;
+}
+
+#social-links{
+	text-align: center;
+	list-style: none;
+  	margin: 0 auto;
+}
